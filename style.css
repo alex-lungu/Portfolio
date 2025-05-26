@@ -1,0 +1,20 @@
+html {
+  scroll-padding-top: 72px;
+}
+
+.main-page::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.project-icon {
+  max-height: 200px;
+  margin-bottom: 1rem;
+}
+
+@media(min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
