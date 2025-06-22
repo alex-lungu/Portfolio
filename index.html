@@ -1,120 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Alexander Lungu</title>
-</head>
-<body class="main-page">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-    <div class="container">
-      <a href="#" class="navbar-brand">My Portfolio</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alexander Lungu</title>
+  </head>
+  <body class="main-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">My Portfolio</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- About Me -->
-  <section id="about" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 pb-lg-5 text-center text-sm-start">
-  <div class="container">
-    <div class="d-sm-flex align-items-center justify-content-between">
-      <div>
-        <h1>Alexander Lungu</h1>
-        <p class="lead my-4">
-          I am a software engineering student at the University of Ottawa. I am passionate about developing clean, efficient, and user-friendly software applications. I enjoy combining creativity with technical skills to create meaningful digital experiences.
-          <br><br>
-          Currently, I’m expanding my design skills through a UI design course, where I’m learning essential design principles such as user-centered design and heuristic evaluation. My workflow focuses on understanding user needs, iterative prototyping, and continuously improving the interface based on feedback. As I gain experience, I aim to integrate these design concepts into my development process to deliver polished and intuitive products.
-          <br><br>
-          You can learn more about the design concepts I’m studying <a href="https://www.nngroup.com/" target="_blank">here</a>.
-        </p>
-      </div>
-      <img class="img-fluid ms-5 d-none d-lg-block justify-content-between" src="img/showcase.svg" alt="" style="width: 35%;">
-    </div>
-  </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="p-5">
-    <div class="container">
-      <h2 class="text-center mb-5">My Projects</h2>
-      <div class="row text-center g-4">
-        <div class="col-md d-flex">
-          <div class="card bg-dark text-light h-100">
-            <div class="card-body text-center">
-              <div class="h1 mb-3">
-                <img src="img/service.svg" class="img-fluid project-icon mt-2" alt="">
-              </div>
-              <h3 class="card-title mb-3">Dental Service Website</h3>
-              <p class="card-text">
-                A clean, modern website for a dental clinic, designed to help patients explore services, read testimonials, and easily book appointments online.
-              </p>
-              <a href="https://alexanderlungu-awsfalah-servicesite.netlify.app/" class="btn btn-primary" target="_blank">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex">
-          <div class="card bg-secondary text-light h-100">
-            <div class="card-body text-center">
-              <div class="h1 mb-3">
-                <img src="img/game.svg" class="img-fluid project-icon mt-2" alt="">
-              </div>
-              <h3 class="card-title mb-3">Game Website</h3>
-              <p class="card-text">
-                A fun and interactive game designed for quick play sessions, offering simple mechanics, engaging visuals, and an enjoyable user experience.
-              </p>
-              <a href="game.html" class="btn btn-dark">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex">
-          <div class="card bg-dark text-light h-100">
-            <div class="card-body text-center">
-              <div class="h1 mb-3">
-                <img src="img/ecommerce.svg" class="img-fluid project-icon mt-2" alt="">
-              </div>
-              <h3 class="card-title mb-3">E-Commerce</h3>
-              <p class="card-text">
-                An online store designed to deliver a seamless shopping experience, featuring intuitive navigation and a fast, secure checkout process.
-              </p>
-              <a href="ecommerce.html" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex">
-          <div class="card bg-secondary text-light h-100">
-            <div class="card-body text-center">
-              <div class="h1 mb-3">
-                <img src="img/sport.svg" class="img-fluid project-icon mt-2" alt="">
-              </div>
-              <h3 class="card-title mb-3">Sport Website</h3>
-              <p class="card-text">
-                An interactive web platform that showcases sports performance analytics through engaging visuals and dynamic data insights.
-              </p>
-              <a href="sport.html" class="btn btn-dark">View Project</a>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <!-- About Me -->
+    <section
+      id="about"
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 pb-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Alexander Lungu</h1>
+            <p class="lead my-4">
+              I am a software engineering student at the University of Ottawa. I
+              am passionate about developing clean, efficient, and user-friendly
+              software applications. I enjoy combining creativity with technical
+              skills to create meaningful digital experiences.
+              <br /><br />
+              Currently, I’m expanding my design skills through a UI design
+              course, where I’m learning essential design principles such as
+              user-centered design and heuristic evaluation. My workflow focuses
+              on understanding user needs, iterative prototyping, and
+              continuously improving the interface based on feedback. As I gain
+              experience, I aim to integrate these design concepts into my
+              development process to deliver polished and intuitive products.
+              <br /><br />
+              You can learn more about the design concepts I’m studying
+              <a href="https://www.nngroup.com/" target="_blank">here</a>.
+            </p>
+          </div>
+          <img
+            class="img-fluid ms-5 d-none d-lg-block justify-content-between"
+            src="img/showcase.svg"
+            alt=""
+            style="width: 35%"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+        <div class="row text-center g-4">
+          <div class="col-md d-flex">
+            <div class="card bg-dark text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    src="img/service.svg"
+                    class="img-fluid project-icon mt-2"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3">Dental Service Website</h3>
+                <p class="card-text">
+                  A clean, modern website for a dental clinic, designed to help
+                  patients explore services, read testimonials, and easily book
+                  appointments online.
+                </p>
+                <a
+                  href="https://alexanderlungu-awsfalah-servicesite.netlify.app/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex">
+            <div class="card bg-secondary text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    src="img/game.svg"
+                    class="img-fluid project-icon mt-2"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3">Game Website</h3>
+                <p class="card-text">
+                  A fun and interactive game designed for quick play sessions,
+                  offering simple mechanics, engaging visuals, and an enjoyable
+                  user experience.
+                </p>
+                <a href="https://aagamememory.netlify.app/" class="btn btn-dark"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex">
+            <div class="card bg-dark text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    src="img/ecommerce.svg"
+                    class="img-fluid project-icon mt-2"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3">E-Commerce</h3>
+                <p class="card-text">
+                  An online store designed to deliver a seamless shopping
+                  experience, featuring intuitive navigation and a fast, secure
+                  checkout process.
+                </p>
+                <a href="ecommerce.html" class="btn btn-primary"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex">
+            <div class="card bg-secondary text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    src="img/sport.svg"
+                    class="img-fluid project-icon mt-2"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title mb-3">Sport Website</h3>
+                <p class="card-text">
+                  An interactive web platform that showcases sports performance
+                  analytics through engaging visuals and dynamic data insights.
+                </p>
+                <a href="sport.html" class="btn btn-dark">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
