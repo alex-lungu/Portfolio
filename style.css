@@ -10,7 +10,13 @@ html {
 
 .project-icon {
   max-height: 200px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
   margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media(min-width: 768px) {
